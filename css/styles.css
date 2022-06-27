@@ -162,9 +162,17 @@ body {
 }
 
 /* Герой */
+.hero.container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  background-color: tomato;
+}
 
 .hero.title {
-  padding-top: 106px;
+  max-width: 696px;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
