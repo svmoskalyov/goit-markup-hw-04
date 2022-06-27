@@ -1,8 +1,9 @@
 /* Объявление глобальных переменных */
 /* 
   Фон тела страницы --bg-body-color: #fff;
-  Фон "героя" --bg-hero-color: #2f303a;
+  Фон "героя" --bg-hero-color: #C4C4C4;
   Фон "наша команда" --bg-team-color: #f5f4fa;
+  Фон футера --bg-hero-color: #2f303a;
   Цвет основного текста --text-primary-color: #212121;
   Цвет вторичного текста --text-secondory-color: #757575;
   Цвет текста логотипа в хедере --text-logo-header-color: #000;
@@ -13,8 +14,9 @@
    */
 :root {
   --bg-body-color: #fff;
-  --bg-hero-color: #2f303a;
+  --bg-hero-color: #c4c4c4;
   --bg-team-color: #f5f4fa;
+  --bg-footer-color: #2f303a;
   --text-primary-color: #212121;
   --text-secondory-color: #757575;
   --text-logo-header-color: #000;
@@ -160,12 +162,9 @@ body {
 }
 
 /* Герой */
-.hero {
-  background-color: var(--bg-hero-color);
-  text-align: center;
-}
 
 .hero.title {
+  padding-top: 106px;
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -253,6 +252,13 @@ body {
 .team-list .item {
   width: calc((100% - 90px) / 4);
   text-align: center;
+
+  /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2); */
+  /* border-radius: 0px 0px 4px 4px; */
+
+  /* box-shadow: 0 15px 10px #777; */
+  /* outline: 2px solid tomato; */
 }
 
 .team-list .item:not(:nth-child(4n)) {
@@ -284,7 +290,7 @@ body {
 .page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: var(--bg-hero-color);
+  background-color: var(--bg-footer-color);
 }
 
 .footer.logo {
