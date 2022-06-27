@@ -165,8 +165,20 @@ body {
 .hero.container {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.hero.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-  background-color: tomato;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/img.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: var(--bg-hero-color);
 }
 
 .hero.title {
