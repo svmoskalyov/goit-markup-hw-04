@@ -28,7 +28,6 @@
 
 /* Тело страницы */
 body {
-  margin: 0;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   color: var(--text-primary-color);
