@@ -9,6 +9,7 @@
   Цвет текста белый (логотип в футере, заголовок "героя") --text-white-color: #fff;
   Цвет сылок в футере --link-footer-color: rgba(255, 255, 255, 0.6);
   Цвет акцента --accent-color: #2196f3;
+  Цвет бордера на карточках --card-border: #eee;
    */
 :root {
   --bg-body-color: #fff;
@@ -20,6 +21,7 @@
   --text-white-color: #fff;
   --link-footer-color: rgba(255, 255, 255, 0.6);
   --accent-color: #2196f3;
+  --card-border: #eee;
 }
 
 /* Тело страницы */
@@ -393,9 +395,9 @@ body {
   padding-bottom: 20px;
   padding-left: 24px;
 
-  border-right: 1px solid var(--bg-team-color);
-  border-bottom: 1px solid var(--bg-team-color);
-  border-left: 1px solid var(--bg-team-color);
+  border-right: 1px solid var(--card-border);
+  border-bottom: 1px solid var(--card-border);
+  border-left: 1px solid var(--card-border);
 }
 
 .card-link:hover,
