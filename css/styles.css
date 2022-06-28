@@ -30,6 +30,7 @@
 body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+
   color: var(--text-primary-color);
   background-color: var(--bg-body-color);
 }
@@ -38,6 +39,7 @@ body {
 .list {
   margin: 0;
   padding: 0;
+
   list-style: none;
 }
 
@@ -45,6 +47,7 @@ body {
 .button {
   color: var(--text-primary-color);
   background-color: var(--bg-team-color);
+
   border: 0ch;
   border-radius: 4px;
   cursor: pointer;
