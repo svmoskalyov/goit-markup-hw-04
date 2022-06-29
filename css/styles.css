@@ -242,6 +242,20 @@ body {
   margin-right: 30px;
 }
 
+.feature-icon {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  padding: 25px 100px;
+
+  background-color: var(--bg-team-color);
+}
+
+.feature-icon .icon {
+  width: 70px;
+  height: 70px;
+}
+
 .features-title {
   display: none;
 }
