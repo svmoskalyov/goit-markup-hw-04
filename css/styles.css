@@ -331,12 +331,32 @@ body {
 
 .team-list .position {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 
   font-size: 16px;
   line-height: 1.19;
   color: var(--text-secondory-color);
 }
+
+
+
+.team-list .icon-list {
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 30px;
+
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 206px;
+height: 44px;
+
+
+  outline: 2px solid tomato;
+}
+
+
+
 
 /* Подвал */
 .page-footer {
