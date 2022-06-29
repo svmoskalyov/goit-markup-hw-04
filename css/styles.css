@@ -17,6 +17,7 @@
   --bg-hero-color: #c4c4c4;
   --bg-team-color: #f5f4fa;
   --bg-footer-color: #2f303a;
+  --bg-icon-color: #afb1bb;
   --text-primary-color: #212121;
   --text-secondory-color: #757575;
   --text-logo-header-color: #000;
@@ -354,6 +355,19 @@ height: 44px;
 
   outline: 2px solid tomato;
 }
+
+
+
+.icon-list .team-link {
+
+
+  color: var(--bg-icon-color);
+  text-decoration: none;
+
+
+ 
+}
+
 
 
 
