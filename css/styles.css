@@ -340,33 +340,50 @@ body {
 }
 
 
+/* --- */
+
 
 .team-list .icon-list {
-margin-right: auto;
-margin-left: auto;
-margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
 
-display: flex;
-align-items: center;
-justify-content: space-around;
-width: 206px;
-height: 44px;
+  display: flex;
+  align-items: center;
 
+  justify-content: space-between;
+
+  width: 206px;
+  height: 44px;
 
   outline: 2px solid tomato;
 }
 
+.team-list-icon {
+
+
+
+
+  background-color: red;
+}
+
+.team-list-icon .team-link {
+
+
+  outline: 2px solid black;
+}
 
 
 .icon-list .team-link {
 
 
-  color: var(--bg-icon-color);
-  text-decoration: none;
+background-color: lime;
 
-
- 
+  /* color: var(--bg-icon-color); */
+  /* text-decoration: none; */
 }
+/* --- */
+
 
 
 
