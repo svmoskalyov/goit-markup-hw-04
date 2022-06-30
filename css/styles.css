@@ -350,18 +350,13 @@ body {
   margin-left: 32px;
 
 
-
   outline: 2px solid tomato;
 }
 
 .team-item {
-  width: 206px;
-  height: 44px;
-
-
-
-  /* background-color: yellowgreen; */
-  /* outline: 2px solid green; */
+  
+  background-color: yellowgreen;
+  outline: 2px solid green;
 }
 
 .team-item + .team-item {
@@ -375,10 +370,8 @@ body {
   width: 44px;
   height: 44px;
 
-
-  color: violet;
+  color: var(--bg-icon-color);
   border-radius: 50%;
-
 
 
   background-color: blue;
@@ -390,8 +383,8 @@ fill: currentColor;
 }
 
 .team-link:hover {
-  background-color: brown;
-  color: white;
+  background-color: var(--accent-color);
+  color: var(--text-white-color);
 }
 
 
