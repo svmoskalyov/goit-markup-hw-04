@@ -340,7 +340,6 @@ body {
 }
 
 /* icons */
-
 .team-icons {
   display: flex;
 
@@ -417,6 +416,52 @@ body {
 .address .location:hover,
 .address .location:focus {
   color: var(--accent-color);
+}
+
+/* --- */
+.page-footer > .container {
+  display: flex;
+}
+
+.page-footer .social {
+  margin-left: 70px;
+}
+
+.social-title {
+  margin: 0;
+  padding: 0;
+
+  color: tomato;
+  text-transform: uppercase;
+}
+
+/* icons */
+.social-icons {
+  display: flex;
+}
+
+.social-item + .social-item {
+  margin-left: 10px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+
+  color: var(--bg-icon-color);
+  border-radius: 50%;
+}
+
+.social-icon {
+  fill: currentColor;
+}
+
+.social-link:hover {
+  color: var(--text-white-color);
+  background-color: var(--accent-color);
 }
 
 /* Портфолио */
