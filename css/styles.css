@@ -342,16 +342,62 @@ body {
 /* icons */
 
 .team-icons {
+  display: flex;
+
+  margin-top: 0;
+  margin-right: 32px;
+  margin-bottom: 30px;
+  margin-left: 32px;
+
+
+
+  outline: 2px solid tomato;
 }
 
 .team-item {
+  width: 206px;
+  height: 44px;
+
+
+
+  /* background-color: yellowgreen; */
+  /* outline: 2px solid green; */
+}
+
+.team-item + .team-item {
+  margin-left: 10px;
 }
 
 .team-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+
+
+  color: violet;
+  border-radius: 50%;
+
+
+
+  background-color: blue;
+  /* outline: 2px solid blue; */
 }
 
 .team-icon {
+fill: currentColor;
 }
+
+.team-link:hover {
+  background-color: brown;
+  color: white;
+}
+
+
+/* .team-icon:hover {
+fill: white;
+} */
 
 
 /* --- */
