@@ -339,10 +339,23 @@ body {
   color: var(--text-secondory-color);
 }
 
+/* icons */
+
+.team-icons {
+}
+
+.team-item {
+}
+
+.team-link {
+}
+
+.team-icon {
+}
+
 
 /* --- */
-
-
+/* 
 .team-list .icon-list {
   margin-right: auto;
   margin-left: auto;
@@ -361,27 +374,19 @@ body {
 
 .team-list-icon {
 
-
-
-
   background-color: red;
 }
 
 .team-list-icon .team-link {
 
-
   outline: 2px solid black;
 }
 
-
 .icon-list .team-link {
 
-
 background-color: lime;
+} */
 
-  /* color: var(--bg-icon-color); */
-  /* text-decoration: none; */
-}
 /* --- */
 
 
@@ -555,7 +560,7 @@ background-color: lime;
 }
 
 
-/* --- */
+/* ---------------------------- */
 
 .test-icon {
   display: flex;
@@ -573,9 +578,9 @@ background-color: lime;
 
 
 /* variant 1 */
-/* .test-icon .item + .item {
+.test-icon .item + .item {
   margin-left: 10px;
-} */
+}
 
 /* variant 2 */
 /* .test-icon .item {
@@ -589,12 +594,13 @@ background-color: lime;
 
 .test-a {
   display: flex;
-  width: 206px;
+  width: 44px;
   height: 44px;
-  /* align-items: center; */
+
+  border-radius: 50%;
+  align-items: center;
   justify-content: center;
 
-  /* text-decoration: none; */
   color: yellowgreen;
 
   outline: 2px solid black;
@@ -604,10 +610,11 @@ background-color: lime;
 
 .test-svg {
   /* display: block; */
-  width: 44px;
-  height: 44px;
+  width: 25px;
+  height: 25px;
   fill: currentColor;
   /* fill: red; */
+
 
   outline: 2px solid blue;
 }
@@ -615,3 +622,5 @@ background-color: lime;
 .test-svg:hover {
   fill: white
 }
+
+
