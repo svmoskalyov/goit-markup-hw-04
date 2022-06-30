@@ -366,59 +366,13 @@ body {
 }
 
 .team-icon {
-fill: currentColor;
+  fill: currentColor;
 }
 
 .team-link:hover {
   color: var(--text-white-color);
   background-color: var(--accent-color);
 }
-
-
-/* .team-icon:hover {
-fill: white;
-} */
-
-
-/* --- */
-/* 
-.team-list .icon-list {
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 30px;
-
-  display: flex;
-  align-items: center;
-
-  justify-content: space-between;
-
-  width: 206px;
-  height: 44px;
-
-  outline: 2px solid tomato;
-}
-
-.team-list-icon {
-
-  background-color: red;
-}
-
-.team-list-icon .team-link {
-
-  outline: 2px solid black;
-}
-
-.icon-list .team-link {
-
-background-color: lime;
-} */
-
-/* --- */
-
-
-
-
-
 
 /* Подвал */
 .page-footer {
@@ -585,7 +539,6 @@ background-color: lime;
   color: var(--text-secondory-color);
 }
 
-
 /* ---------------------------- */
 
 .test-icon {
@@ -596,12 +549,9 @@ background-color: lime;
   margin-top: 0;
   margin-bottom: 30px;
 
-
   list-style: none;
   outline: 2px solid tomato;
-
 }
-
 
 /* variant 1 */
 .test-icon .item + .item {
@@ -616,7 +566,6 @@ background-color: lime;
 /* .test-icon .item:not(:nth-child(4n)) {
   margin-right: 10px;
 } */
-
 
 .test-a {
   display: flex;
@@ -633,7 +582,6 @@ background-color: lime;
   background-color: teal;
 }
 
-
 .test-svg {
   /* display: block; */
   width: 25px;
@@ -641,12 +589,9 @@ background-color: lime;
   fill: currentColor;
   /* fill: red; */
 
-
   outline: 2px solid blue;
 }
 
 .test-svg:hover {
-  fill: white
+  fill: white;
 }
-
-
