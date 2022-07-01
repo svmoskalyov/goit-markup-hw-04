@@ -18,6 +18,7 @@
   --bg-team-color: #f5f4fa;
   --bg-footer-color: #2f303a;
   --bg-icon-color: #afb1bb;
+  --bg-icon-footer-color: rgba(255, 255, 255, 0.1);
   --text-primary-color: #212121;
   --text-secondory-color: #757575;
   --text-logo-header-color: #000;
@@ -457,7 +458,7 @@ body {
 
   color: var(--text-white-color);
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--bg-icon-footer-color);
 }
 
 .social-icon {
