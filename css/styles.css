@@ -428,14 +428,18 @@ body {
 }
 
 .social-title {
-  margin: 0;
-  padding: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
 
-  color: tomato;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  color: var(--text-white-color);
   text-transform: uppercase;
 }
 
-/* icons */
+/* social icons */
 .social-icons {
   display: flex;
 }
