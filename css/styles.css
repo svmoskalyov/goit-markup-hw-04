@@ -4,6 +4,8 @@
   Фон "героя" --bg-hero-color: #C4C4C4;
   Фон "наша команда" --bg-team-color: #f5f4fa;
   Фон футера --bg-hero-color: #2f303a;
+  Фон иконки --bg-icon-color: #afb1b8;
+  Фон иконки в футоре --bg-icon-footer-color: rgba(255, 255, 255, 0.1);
   Цвет основного текста --text-primary-color: #212121;
   Цвет вторичного текста --text-secondory-color: #757575;
   Цвет текста логотипа в хедере --text-logo-header-color: #000;
@@ -17,7 +19,7 @@
   --bg-hero-color: #c4c4c4;
   --bg-team-color: #f5f4fa;
   --bg-footer-color: #2f303a;
-  --bg-icon-color: #afb1bb;
+  --bg-icon-color: #afb1b8;
   --bg-icon-footer-color: rgba(255, 255, 255, 0.1);
   --text-primary-color: #212121;
   --text-secondory-color: #757575;
@@ -377,13 +379,35 @@ body {
 }
 
 /* Постоянные клиенты */
+.clients-icons {
+  display: flex;
+}
 
+.client-item + .client-item {
+  margin-left: 30px;
+}
 
+.client-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
 
+  color: var(--bg-icon-color);
 
+  border: 1px solid var(--bg-icon-color);
+  border-radius: 4px;
+}
 
+.client-icon {
+  fill: currentColor;
+}
 
-
+.client-link:hover {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
 
 /* Подвал */
 .page-footer {
