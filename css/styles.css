@@ -276,6 +276,7 @@ body {
   margin-bottom: 30px;
   padding: 25px 100px;
 
+  border-radius: 4px;
   background-color: var(--bg-team-color);
 }
 
