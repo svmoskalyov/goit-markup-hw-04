@@ -91,6 +91,30 @@ body {
   padding-bottom: 94px;
 }
 
+/* Социальные иконки */
+.social-icons {
+  display: flex;
+}
+
+.social-item + .social-item {
+  margin-left: 10px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+
+  color: var(--bg-icon-color);
+  border-radius: 50%;
+}
+
+.social-icon {
+  fill: currentColor;
+}
+
 /* Главная страница */
 /* Верхняя линия */
 .page-header {
@@ -340,36 +364,14 @@ body {
   color: var(--text-secondory-color);
 }
 
-/* icons */
-.team-icons {
-  display: flex;
-
+.team-list .social-icons {
   margin-top: 0;
   margin-right: 32px;
   margin-bottom: 30px;
   margin-left: 32px;
 }
 
-.team-item + .team-item {
-  margin-left: 10px;
-}
-
-.team-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-
-  color: var(--bg-icon-color);
-  border-radius: 50%;
-}
-
-.team-icon {
-  fill: currentColor;
-}
-
-.team-link:hover {
+.team-list .social-link:hover {
   color: var(--text-white-color);
   background-color: var(--accent-color);
 }
@@ -419,7 +421,7 @@ body {
   color: var(--accent-color);
 }
 
-/* --- */
+/* присоединяйтесь */
 .page-footer > .container {
   display: flex;
 }
@@ -428,7 +430,7 @@ body {
   margin-left: 70px;
 }
 
-.social-title {
+.page-footer .social-title {
   margin-top: 0;
   margin-bottom: 20px;
 
@@ -440,32 +442,12 @@ body {
   text-transform: uppercase;
 }
 
-/* social icons */
-.social-icons {
-  display: flex;
-}
-
-.social-item + .social-item {
-  margin-left: 10px;
-}
-
-.social-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-
+.page-footer .social-link {
   color: var(--text-white-color);
-  border-radius: 50%;
   background: var(--bg-icon-footer-color);
 }
 
-.social-icon {
-  fill: currentColor;
-}
-
-.social-link:hover {
+.page-footer .social-link:hover {
   color: var(--text-white-color);
   background-color: var(--accent-color);
 }
